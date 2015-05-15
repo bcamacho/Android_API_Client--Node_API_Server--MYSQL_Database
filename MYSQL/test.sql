@@ -10,7 +10,7 @@
 */
 DROP DATABASE IF EXISTS `test`;
 CREATE DATABASE test;
-USE test1;
+USE test;
 SET NAMES utf8;
 -- ----------------------------
 --  Table structure for `log`
@@ -21,4 +21,4 @@ CREATE TABLE `log` (
   `username` varchar(255) DEFAULT NULL,
   `time_stamp` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
